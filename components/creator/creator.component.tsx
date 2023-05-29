@@ -10,8 +10,11 @@ export default function Creator() {
         alt="Profile image of the NFT creator"
         className="aspect-square w-[33px] rounded-full border border-white"
       />
-      <p className="text-base text-soft-blue">
-        Creation of <span className="text-white">Jules Wyvern</span>
+      <p className="text-base text-soft-blue lg:text-baseLg">
+        Creation of{' '}
+        <span className="text-white transition-colors hover:cursor-pointer hover:text-cyan">
+          Jules Wyvern
+        </span>
       </p>
     </div>
   );

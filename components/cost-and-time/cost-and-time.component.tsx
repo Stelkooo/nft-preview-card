@@ -8,14 +8,16 @@ export default function CostAndTime() {
     <div className="flex justify-between">
       <div className="flex items-center gap-2">
         <Image src={Eth} alt="Ethereum Logo" />
-        <p className="text-base font-semibold text-cyan ">0.041 ETH</p>
+        <p className="text-base font-semibold text-cyan lg:text-baseLg ">
+          0.041 ETH
+        </p>
       </div>
       <div className="flex items-center gap-2">
         <Image
           src={Clock}
           alt="Icon of clock representing the time remaining of NFT"
         />
-        <p className="text-base text-soft-blue">3 days left</p>
+        <p className="text-base text-soft-blue lg:text-baseLg">3 days left</p>
       </div>
     </div>
   );

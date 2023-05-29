@@ -22,6 +22,7 @@ export default {
         xl: ['22px', '28px'],
         lg: ['18px', '26px'],
         base: ['15px', '19px'],
+        baseLg: ['16px', '20px'],
       },
     },
   },
